@@ -1,0 +1,22 @@
+//WAP to find the fibonacci series till nth term using recursion 
+#include<stdio.h>
+int fib(int, int, int);
+int main(void){
+
+    int a=0,b=1,n;
+    printf("Enter the number of elements you want to print: \n");
+    scanf("%d",&n);
+    fib(a,b,n);
+    
+
+}
+
+int fib(x,y,n){
+    if(n==0){
+        return 1;
+    } 
+    else{
+        printf(c + fib(x,y,n-1));
+        return c + fib(x,y,n-1);
+    }
+}
